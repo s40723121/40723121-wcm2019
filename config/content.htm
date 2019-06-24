@@ -1,6 +1,6 @@
 <h1>40723121</h1>
 <p> 40723121  設計一甲 21 號  邱博義</p>
-<h1>期末報告說明</h1>
+<p><img caption="false" height="250" src="/images/1.PNG" width="446"/></p><h1>期末報告說明</h1>
 <p>各組組員請依照各頁面主題, 分別利用各自帳號下的 <span style="background-color: #ff0000;">CMSimfly</span>, Reveal 與 Pelican (Blogger) 內容, 引用至各相關頁面外, 再分別依據各頁面所執行的操作內容, 拍成影音說明影片, 以<span style="background-color: #ff0000;">"國立虎尾科技大學-機械設計工程系-網際內容管理-學號-影片主題"</span>為名稱, 上傳到各自的 Youtube 帳號下後, 嵌入到下列各頁面中, 以作為期末課程評分依據.</p>
 <p>各學員將資料推送到各組網站時, 必須引用 Github 上版本提交號或連結, 並在影片內容中提供相關資料的說明與連結</p>
 <p></p>
@@ -48,13 +48,13 @@
 <p><span>建立 Git 倉儲, 並<span style="color: #000000; background-color: #ff0000;"> clone 倉儲至近端工作</span>後, 對遠端倉儲改版</span><br/><span><br/></span><span>可攜程式系統中已經內建 git, 可以在啟動 start.bat 後, 透過 path 的設定, 直接執行 git 指令.</span><br/><br/><span>建立 Git 倉儲, 共分為兩類, 一類是直接在 <span style="background-color: #ff0000;">Github 網際介面</span>下建立倉儲時, 要求建立 README.md 檔案, 之後可以直接在近端, 以 git clone 加上倉儲連線 URL, 將倉儲克隆一份到近端, 並以最新版本作為工作目錄, 使用者改版後, 可以直接透過<span style="background-color: #ff0000;">git add, commit</span>  與 <span style="background-color: #ff0000;">push</span> 對遠端倉儲改版.</span><br/><br/><span>另一類則是故意在 Github 網際介面下建立倉儲時, 不要建立任何檔案, 而是在近端自行利用 git 指令建立倉儲架構, 新增內容後, 以 git remote add 設法在近端倉儲中納入 origin URL 後, 將近端倉儲版本新增提交推送到遠端.</span><br/><br/><span>git add</span><br/><br/><span><span style="background-color: #ff0000;">git add</span> 可以用來新增一個檔案, 數個檔案, 或在之前提交後所新增的所有內容.</span><br/><br/><span>git add 在 GIT 架構下, 是對所<span style="background-color: #ff0000;">新增或修改的內容拍快照:</span></span><br/><br/></p>
 <blockquote class="tr_bq">git add . adds all modified and new (untracked) files in the current directory and all subdirectories to the staging area (a.k.a. the index), thus preparing them to be included in the next git commit . Any files matching the patterns in the .gitignore file will be ignored by git add</blockquote>
 <p><br/><span style="background-color: #ff0000;">git commit </span><br/><br/><span>git commit 執行之前, 必須使用 git config 建立臨時或永久的<span style="background-color: #ff0000;">身分註記</span>, 因為 GIT 在展開所有改版內容時, 必須明確登錄這些變更的作者與時間.</span><br/><br/><span>當使用者採用 git commit -m "改版說明訊息", 此次提交到 .git 目錄下的更動內容, 均會綁定使用者身分與改版所輸入的說明訊息.</span><br/><br/><span style="background-color: #ff0000;">git push</span><br/><br/><span>git push 在隨後沒有輸入遠端 URL 代號時, 表示要推送到 origin, 若透過 git remote add 設定其他代號與 URL 對應時, git push 加上代號, 就可以將此次的提交內容, 推送到指定的 URL 所在遠端倉儲.</span><br/><br/><span>第四步</span><br/><span><br/></span><span></span><span>自行建立靜態內容管理網站<img alt="" height="855" src="/images/4..PNG" width="1007"/></span></p>
-<h1><span style="color: #993300;">Mobile網站內容</span></h1>
-<h2><span style="color: #000000;">說明</span></h2>
+<h1>Mobile網站內容</h1>
+<h2>說明</h2>
 <p><span>使用 <span style="background-color: #ff0000;">Flask, bs4 </span>與<span style="background-color: #ff0000;"> lxml 模組</span></span><span>了解 CMSimfly 如何建構, 並且嘗試修改現有功能, 除錯或建立自己的網際內容管理系統</span></p>
 <p><span></span></p>
-<h2><span style="color: #000000;">參考倉儲</span></h2>
+<h2>參考倉儲</h2>
 <p><span> <span style="color: #ff0000;"><a href="https://github.com/mdecourse/acmsimfly" style="color: #ff0000;">https://github.com/mdecourse/acmsimfly</a></span></span></p>
-<h2><span style="color: #000000;">參考網站</span></h2>
+<h2>參考網站</h2>
 <p><span style="color: #ff0000;"><a href="http://mde.tw/acmsimfly/content/index.html" style="color: #ff0000;">http://mde.tw/acmsimfly/content/index.html</a></span></p><h1>Virtual Host虛擬主機</h1>
 <p><span style="background-color: #99cc00;"><strong>虛擬主機下的類 Github 網站</strong></span><br/><br/><span>如何利用<span> </span></span><a href="https://www.fossil-scm.org/">Fossil SCM</a><span>, 在<span> </span></span><a href="https://www.virtualbox.org/">Virtualbox</a><span><span> </span>中的<span> </span></span><a href="https://drive.google.com/open?id=1yjWQ5e6AGaio2ZvclONKEwIfSMtY2gSz">Ubuntu 18.04-2</a><span> (8.5 GB) 建立類似 Github 的系統, 可以放入 CMSimfly 的靜態網頁</span></p>
 <p><span style="background-color: #99cc00;"><strong>實體主機下的網際內容管理</strong></span><br/><br/><span>如何在實體主機上安裝<span> </span></span><a href="https://www.ubuntu.com/">Ubuntu</a><span><span> </span>18.04 (</span><a href="https://www.ubuntu.com/about/release-cycle">https://www.ubuntu.com/about/release-cycle</a><span>), 配置網路連線, 然後架構<span> </span></span><a href="https://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html">uwsgi</a><span><span> </span>環境下的 CMSimfly 動態網站, 或建立 Fossil SCM 用來伺服管理 CMSimfly 下有版次管理的靜態網頁, 或利用<span> </span></span><a href="https://nginx.org/en/">nginx</a><span><span> </span>伺服無版次管理的 CMSimfly 靜態網頁.</span></p>
